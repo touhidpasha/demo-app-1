@@ -1,0 +1,28 @@
+#form{
+    width: 40%;
+    height: 600px;
+    margin-top:7%;
+    /* margin-bottom: 10%; */
+    margin-left: 35%;
+    margin-right: 35%;
+    display: flex;
+    /* border-style: ridge; */
+}
+#col{
+    width: 100%;
+    display: flex;
+}
+#row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 5px 5px 5px 10px;
+    align-items: stretch;
+    font-size: 36px;
+}
+.hint{
+    font-size: 14px;
+    font-weight: 2x;
+    color: #D00006;
+}
+
