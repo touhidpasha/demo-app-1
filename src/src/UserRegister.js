@@ -74,9 +74,9 @@ export default function UserRegister(props) {
         { user_email: fValue.email },
         { headers: {"Authorization" : `Bearer ZnJlbGFuY2VBcHA6d2ViJjEyNw==`} }
       );
-      if(res.data.succesmessage=="yes")
+      if(res.data.desc !="This Email is not registered yet")
       alert("user already exists")
-      console.log("email validation" + res.data);
+      console.log("email validation" + res.data); //getting api res
     } catch (e) {
       console.log("email validation" + e);
     }
